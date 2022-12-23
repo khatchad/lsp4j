@@ -35,7 +35,7 @@ subprojects {
 	apply plugin: 'java'
 	apply plugin: 'org.xtext.xtend'
 	apply plugin: 'eclipse'
-	apply plugin: 'maven'
+	apply plugin: 'maven-publish'
 	
 	apply from: "${rootDir}/gradle/java-compiler-settings.gradle"
 	apply from: "${rootDir}/gradle/xtend-compiler-settings.gradle"
